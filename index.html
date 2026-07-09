@@ -9,16 +9,80 @@
     name="description"
     content="Nhat Chung is a PhD student at A*STAR and NUS working on safety-enabled decision-making for open-world embodied systems."
   />
+  <meta name="author" content="Nhat Chung" />
+  <meta property="og:title" content="Nhat Chung" />
+  <meta
+    property="og:description"
+    content="PhD student at A*STAR and NUS working on robot safety, embodied AI, and trustworthy computer vision."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/profile_photo.jpeg" />
+  <link rel="icon" type="image/svg+xml" href="images/icons/sparkle.svg" />
+  <link rel="shortcut icon" href="images/icons/cloudy.ico" />
 
   <link rel="stylesheet" href="stylesheet.css" />
 </head>
 
 <body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-news" viewBox="0 0 24 24">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h10A2.5 2.5 0 0 1 19 5.5V18a3 3 0 0 1-3 3H6.5A2.5 2.5 0 0 1 4 18.5v-13Z" />
+      <path d="M8 8h7" />
+      <path d="M8 12h7" />
+      <path d="M8 16h4" />
+      <path d="M19 7h1a1 1 0 0 1 1 1v9.5a3.5 3.5 0 0 1-3.5 3.5H16" />
+    </symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24">
+      <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z" />
+      <path d="M18 14l.9 2.6 2.6.9-2.6.9L18 21l-.9-2.6-2.6-.9 2.6-.9L18 14Z" />
+    </symbol>
+    <symbol id="icon-trophy" viewBox="0 0 24 24">
+      <path d="M8 4h8v4.5a4 4 0 0 1-8 0V4Z" />
+      <path d="M8 6H5a2 2 0 0 0 0 4h3" />
+      <path d="M16 6h3a2 2 0 0 1 0 4h-3" />
+      <path d="M12 12.5V17" />
+      <path d="M9 20h6" />
+      <path d="M10 17h4l1 3H9l1-3Z" />
+    </symbol>
+    <symbol id="icon-medal" viewBox="0 0 24 24">
+      <path d="M8 3h8l-2.5 5h-3L8 3Z" />
+      <path d="M12 21a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z" />
+      <path d="M12 13.4l.8 1.6 1.8.3-1.3 1.2.3 1.8-1.6-.9-1.6.9.3-1.8-1.3-1.2 1.8-.3.8-1.6Z" />
+    </symbol>
+    <symbol id="icon-user" viewBox="0 0 24 24">
+      <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
+      <path d="M4 21a8 8 0 0 1 16 0" />
+    </symbol>
+    <symbol id="icon-briefcase" viewBox="0 0 24 24">
+      <path d="M9 6V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1" />
+      <path d="M4 7h16v11.5A2.5 2.5 0 0 1 17.5 21h-11A2.5 2.5 0 0 1 4 18.5V7Z" />
+      <path d="M4 12h16" />
+      <path d="M10 12v2h4v-2" />
+    </symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21V5.5Z" />
+      <path d="M8 7h8" />
+      <path d="M8 11h6" />
+    </symbol>
+    <symbol id="icon-service" viewBox="0 0 24 24">
+      <path d="M8 11l2.5 2.5L16 8" />
+      <path d="M4 5h16v14H4V5Z" />
+      <path d="M7 19v2" />
+      <path d="M17 19v2" />
+    </symbol>
+    <symbol id="icon-graduation" viewBox="0 0 24 24">
+      <path d="M3 8l9-4 9 4-9 4-9-4Z" />
+      <path d="M7 10.5V15c0 1.7 2.2 3 5 3s5-1.3 5-3v-4.5" />
+      <path d="M21 8v6" />
+    </symbol>
+  </svg>
+
   <div class="page">
     <header>
-      <div class="brand">Nhat Chung</div>
+      <div class="brand">Home</div>
       <nav aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#news">News</a>
         <a href="#experience">Experience</a>
         <a href="publication.html">Publications</a>
         <a href="#service">Service</a>
@@ -30,74 +94,149 @@
     <main>
       <div class="hero">
         <div class="hero-card">
-          <div class="eyebrow">PhD Student · Robot Safety · Embodied AI</div>
+          <div class="eyebrow">PhD Student · A*STAR / NUS · Robot Safety</div>
 
           <h1>Nhat Chung</h1>
 
           <p class="subtitle">
-            I am a first-year PhD student in Computer Science at the
-            <span class="highlight">National University of Singapore</span>
+            Nhat Chung is a first-year PhD student studying Computer Science at
+            <a class="inline-logo-link" href="https://www.comp.nus.edu.sg/">
+              <img src="images/nus-logo.svg" alt="" loading="lazy" />
+              <span>NUS's School of Computing</span>
+            </a>
             and a Graduate Researcher at
-            <span class="highlight">A*STAR CFAR &amp; IHPC</span>. I work with
-            Prof. Ivor Tsang, Prof. Jin-Song Dong, Prof. Qing Guo, and
-            Dr. Jie Zhang on safety-enabled decision-making for open-world
-            embodied systems.
+            <a class="inline-logo-link" href="https://www.a-star.edu.sg/cfar">
+              <img src="images/astar-logo.svg" alt="" loading="lazy" />
+              <span>A*STAR's IAIC, CFAR</span>
+            </a>, where his work with
+            <a href="https://scholar.google.com/citations?user=rJMOlVsAAAAJ&amp;hl=en">Prof. Ivor Tsang</a>,
+            <a href="https://scholar.google.com/citations?user=tuLa1AsAAAAJ&amp;hl=en">Prof. Jin-Song Dong</a>,
+            and <a href="https://scholar.google.com/citations?user=Rj2x4QUAAAAJ&amp;hl=zh-CN">Prof. Qing Guo</a>
+            supports his interest in making <strong>robots safer</strong> when they
+            share space with humans, particularly through
+            <strong>semantic-action representations</strong>.
           </p>
 
           <div class="links">
             <a class="button primary" href="publication.html">Publications</a>
-            <a class="button" href="#experience">Experience</a>
-            <a class="button" href="https://scholar.google.com/">Google Scholar</a>
+            <a class="button" href="https://scholar.google.com/citations?user=LZb_-BwAAAAJ">Google Scholar</a>
             <a class="button" href="https://github.com/nhatchung14">GitHub</a>
-            <a class="button" href="cv.pdf">CV</a>
+            <a class="button" href="https://www.linkedin.com/in/nhat-chung-579408178/">LinkedIn</a>
           </div>
         </div>
 
         <aside class="profile-box">
-          <div>
-            <div class="avatar">NC</div>
-            <p>
-              I am interested in how to make robots safer when they share space
-              with humans, especially in open-world settings where perception,
-              context, and decision-making are uncertain.
-            </p>
-          </div>
+          <div class="avatar" aria-label="Portrait of Nhat Chung"></div>
 
           <div class="profile-meta">
-            <div><strong>Affiliation:</strong> A*STAR CFAR &amp; IHPC, NUS</div>
+            <div><strong>Contact:</strong></div>
+            <div>    nhatcm [at] u.nus.edu</div>
             <div><strong>Location:</strong> Singapore</div>
-            <div><strong>Focus:</strong> Physical AI safety, robotics, computer vision</div>
+            <div><strong>Hobbies:</strong> Traveling!</div>
           </div>
         </aside>
       </div>
 
+      <section id="news">
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-news"></use></svg>
+          </span>
+          News
+        </h2>
+
+        <div class="news-table-wrap">
+          <table class="news-table">
+            <tbody>
+              <tr>
+                <th scope="row">Feb 2026</th>
+                <td>
+                  <div class="news-entry">
+                    <span class="news-entry-icon">
+                      <svg aria-hidden="true"><use href="#icon-spark"></use></svg>
+                    </span>
+                    <span><strong>LIBERO-Mem</strong> was accepted to <strong>AAAI 2026</strong>.</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Jan 2026</th>
+                <td>
+                  <div class="news-entry">
+                    <span class="news-entry-icon">
+                      <svg aria-hidden="true"><use href="#icon-spark"></use></svg>
+                    </span>
+                    <span><strong>SlotVLA</strong> was accepted to <strong>ICRA 2026</strong>, and <strong>UNO</strong> was accepted to <strong>WACV 2026</strong>.</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Aug 2025</th>
+                <td>
+                  <div class="news-entry">
+                    <span class="news-entry-icon">
+                      <svg aria-hidden="true"><use href="#icon-news"></use></svg>
+                    </span>
+                    <span>Started as a <strong>PhD student at <a href="https://www.comp.nus.edu.sg/">NUS's School of Computing</a></strong> and <strong>Graduate Researcher at <a href="https://www.a-star.edu.sg/cfar">A*STAR's IAIC, CFAR</a></strong>.</span>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Jul 2025</th>
+                <td>
+                  <div class="news-entry">
+                    <span class="news-entry-icon">
+                      <svg aria-hidden="true"><use href="#icon-spark"></use></svg>
+                    </span>
+                    <span><strong>BiMa</strong> was accepted to <strong>ACM Multimedia 2025</strong>.</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <section id="about">
-        <h2>About</h2>
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-user"></use></svg>
+          </span>
+          About
+        </h2>
         <p>
-          In a previous life, I earned an M.Eng. in Information Technology and
-          a B.Eng. in Computer Science from International University,
-          Vietnam National University HCMC, graduating as valedictorian and
-          top of my class. During my M.Eng. and B.Eng., I was mentored by
-          Dr. Tuan-Anh Vu.
+          He earned a B.Eng. and
+          a M.Eng. from <a href="https://vnuhcm.edu.vn/en/">International University,
+          Vietnam National University HCMC</a>, graduating <strong>top of his class</strong>. During his studies, he was mentored by
+          <a href="https://scholar.google.com/citations?user=EgDjnEEAAAAJ&amp;hl=en">Dr. Tuan-Anh Vu</a> in competitive programming and computer vision research.
         </p>
 
         <p>
-          I later worked in AI research and engineering at FPT AI Center, where
-          I was mentored by Prof. Ngan Le, Prof. Tung Kieu, and Prof. Anh Nguyen.
-          My research background spans embodied AI, autonomous driving perception,
-          adversarial robustness, video understanding, and trustworthy computer vision.
+          He later worked as an AI Engineer at <a href="https://fptsoftware.com/en">FPT Software</a>, where
+          he was mentored by <a href="https://scholar.google.com/citations?user=8ck0k_UAAAAJ&amp;hl=en">Prof. Ngan Le</a>,
+          <a href="https://scholar.google.com/citations?user=9luXdEIAAAAJ&amp;hl=en">Prof. Tung Kieu</a>,
+          and <a href="https://scholar.google.com/citations?user=gEbaF0sAAAAJ&amp;hl=en">Prof. Anh Nguyen</a> in robotics and multimodal systems.
+          Nhat's technical background spans <strong>embodied AI</strong>, <strong>trustworthy systems</strong>, and <strong>computer vision</strong>.
         </p>
       </section>
 
       <section id="experience">
-        <h2>Experience</h2>
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-briefcase"></use></svg>
+          </span>
+          Experience
+        </h2>
 
         <div class="timeline compact-timeline">
           <div class="timeline-item">
             <div class="date">08/2025–Now</div>
             <div>
               <div class="item-title">Graduate Researcher</div>
-              <div class="item-place">A*STAR CFAR &amp; IHPC, Singapore</div>
+              <div class="item-place"><a href="https://www.a-star.edu.sg/cfar">A*STAR's IAIC, CFAR</a>, Singapore</div>
             </div>
           </div>
 
@@ -105,7 +244,7 @@
             <div class="date">08/2024–07/2025</div>
             <div>
               <div class="item-title">AI Engineer</div>
-              <div class="item-place">FPT Software, AI Center, Ho Chi Minh City</div>
+              <div class="item-place"><a href="https://fptsoftware.com/en">FPT Software</a>, AI Center, Ho Chi Minh City</div>
             </div>
           </div>
 
@@ -113,7 +252,7 @@
             <div class="date">12/2023–07/2024</div>
             <div>
               <div class="item-title">Research Assistant</div>
-              <div class="item-place">A*STAR CFAR &amp; IHPC, Singapore</div>
+              <div class="item-place"><a href="https://www.a-star.edu.sg/cfar">A*STAR's IHPC, CFAR</a>, Singapore</div>
             </div>
           </div>
 
@@ -127,24 +266,18 @@
         </div>
       </section>
 
-      <section id="publications">
-        <h2>Publications</h2>
-        <p>
-          My full publication list is maintained on a separate page.
-        </p>
-        <div class="links section-links">
-          <a class="button primary" href="publication.html">View publications</a>
-          <a class="button" href="https://scholar.google.com/">Google Scholar</a>
-        </div>
-      </section>
-
       <section id="service">
-        <h2>Professional Service</h2>
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-service"></use></svg>
+          </span>
+          Professional Service
+        </h2>
 
         <ul class="service-list">
           <li>
             <strong>Conference reviewer:</strong>
-            CoRL 2026, NeurIPS 2026, WACV 2026 Outstanding Reviewer,
+            CoRL 2026, NeurIPS 2026, WACV 2026 (Outstanding Reviewer),
             CVPR 2026, ECCV 2025, ICCV 2025.
           </li>
 
@@ -158,36 +291,47 @@
       </section>
 
       <section id="teaching">
-        <h2>Teaching</h2>
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-graduation"></use></svg>
+          </span>
+          Teaching
+        </h2>
 
-        <ul>
+        <ul class="teaching-list">
           <li>
             <strong>Introduction to AI and Machine Learning</strong>,
-            Teaching Assistant to Profs. Conghui Hu, Patrick Rebentrost,
-            and Rizki Maulana, NUS, 2026.
+            Teaching Assistant to
+            <a href="https://scholar.google.com/citations?user=1D4xX8MAAAAJ&amp;hl=en">Prof. Conghui Hu</a>,
+            <a href="https://scholar.google.com/citations?user=XWHSBmUAAAAJ&amp;hl=en">Prof. Patrick Rebentrost</a>,
+            and <a href="https://www.comp.nus.edu.sg/cs/people/maulana/">Dr. Rizki Maulana</a> @
+            <a href="https://www.comp.nus.edu.sg/">NUS's School of Computing</a>, 2026.
           </li>
 
           <li>
             <strong>Introduction to Machine Learning</strong>,
-            Teaching Assistant to Prof. Vincent Ng,
+            Teaching Assistant to
+            <a href="https://scholar.google.com/citations?user=4UyniXYAAAAJ&amp;hl=en">Prof. Vincent Ng</a> @
             Fulbright University Vietnam, 2023.
           </li>
         </ul>
       </section>
 
       <section id="awards">
-        <h2>Awards and Honors</h2>
+        <h2 class="section-title">
+          <span class="section-icon">
+            <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
+          </span>
+          Awards and Honors
+        </h2>
 
-        <ul>
-          <li>Second Place, Robustness of Foundation Models Workshop, CVPR 2024.</li>
-          <li>First Place, 7th AI City Challenge Workshop, Track 2, CVPR 2023.</li>
-          <li>Second Place, 7th AI City Challenge Workshop, Track 1, CVPR 2023.</li>
-          <li>Second Place, 5th AI City Challenge Workshop, Track 1, CVPR 2021.</li>
-          <li>
-            ICPC awards in Vietnam National 2018, 2019, 2020 and Asia Regional
-            2019, 2020, including Asia Regional Gold Medal in 2020.
-          </li>
-          <li>Second Prize, Vietnam National Olympiad of Informatics 2018.</li>
+        <ul class="award-list">
+          <li><strong>Second Place</strong>, Robustness of Foundation Models Workshop, <strong>CVPR 2024</strong>.</li>
+          <li><strong>First Place</strong>, 7th AI City Challenge Workshop, Track 2, <strong>CVPR 2023</strong>.</li>
+          <li><strong>Second Place</strong>, 7th AI City Challenge Workshop, Track 1, <strong>CVPR 2023</strong>.</li>
+          <li><strong>Second Place</strong>, 5th AI City Challenge Workshop, Track 1, <strong>CVPR 2021</strong>.</li>
+          <li><strong>Gold Medal</strong>, International Collegiate Programming Contest, <strong>Asia Can Tho Regional Contest 2020</strong>.</li>
+          <li><strong>Second Prize</strong>, Vietnam National Olympiad of Informatics, <strong>Div-2 Individual 2018</strong>.</li>
         </ul>
       </section>
 
