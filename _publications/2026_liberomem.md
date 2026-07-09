@@ -1,0 +1,37 @@
+---
+title: "Rethinking Progression of Memory State in Robotic Manipulation: An Object-Centric Perspective"
+image: "/images/publications/liberomem_2025.png"
+link: https://ojs.aaai.org/index.php/AAAI/article/view/37337
+arxiv: 2511.11478
+page: https://libero-mem.github.io/
+github: https://github.com/libero-mem/libero-mem
+hf: https://huggingface.co/libero-mem
+authors:
+  - nhatchung
+  - taiseih
+  - toannguyen
+  - huyle
+  - frederickb
+  - duymhn
+  - khoavo
+  - kashuy
+  - chaser
+  - tungkieu
+  - anhnguyen
+  - nganle
+cofirst:
+  - nhatchung
+  - taiseih
+collection: publications
+permalink: /publication/liberomem
+type: "conference paper"
+type2: "preprint"
+publication: "AAAI"
+year: "2026"
+ac_year: "2026"
+date: 2026-02-05
+---
+
+<!-- <button class="btn btn-round btn-sm btn-ghost-blue" onclick="location.href='https://arxiv.org/abs/2312.09507'">arXiv</button> -->
+
+## Abstract
