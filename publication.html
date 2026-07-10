@@ -81,6 +81,7 @@
             <select id="paper-filter" aria-label="Filter publications by type">
               <option value="all">All</option>
               <option value="conference">Conference</option>
+              <option value="journal">Journal</option>
               <option value="workshop">Workshop</option>
               <option value="preprint">Preprint</option>
             </select>
@@ -88,7 +89,35 @@
         </div>
 
         <ol class="paper-list rich-paper-list">
-          <li class="paper-card" data-type="conference preprint">
+          <li class="paper-card" id="camoudet" data-type="journal preprint">
+            <img src="images/publications/camoudet_2026.png" alt="Camouflaged object feature visualizations" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2026</div>
+              <h3 class="paper-title">Catch Me If You Can Describe Me: Open-Vocabulary Camouflaged Instance Segmentation with Diffusion</h3>
+              <p class="paper-authors">Tuan-Anh Vu, Duc Thanh Nguyen, Qing Guo, <strong>Nhat Chung</strong>, Binh-Son Hua, Ivor W. Tsang, Sai-Kit Yeung</p>
+              <p class="paper-meta"><strong>International Journal of Computer Vision (IJCV), 2026</strong></p>
+              <div class="paper-links">
+                <a href="https://link.springer.com/article/10.1007/s11263-026-02804-4">Paper</a>
+                <a href="https://arxiv.org/abs/2312.17505">arXiv</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="magic" data-type="conference preprint">
+            <img src="images/publications/magic_2025.png" alt="MAGIC collaborative-agent framework for generating physical adversarial patches" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2026</div>
+              <h3 class="paper-title">MAGIC: Mastering Physical Adversarial Generation in Context Through Collaborative LLM Agents</h3>
+              <p class="paper-authors">Yun Xing, <strong>Nhat Chung</strong>, Jie Zhang, Yue Cao, Ivor Tsang, Yang Liu, Lei Ma, Qing Guo</p>
+              <p class="paper-meta"><strong>AAAI 2026</strong></p>
+              <div class="paper-links">
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38095">Paper</a>
+                <a href="https://arxiv.org/abs/2412.08014">arXiv</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="liberomem" data-type="conference preprint">
             <img src="images/publications/liberomem_2025.png" alt="" class="paper-thumb" loading="lazy" />
             <div>
               <div class="paper-year">2026</div>
@@ -105,7 +134,7 @@
             </div>
           </li>
 
-          <li class="paper-card" data-type="conference preprint">
+          <li class="paper-card" id="slotvla" data-type="conference preprint">
             <img src="images/publications/slotvla_2025.png" alt="" class="paper-thumb" loading="lazy" />
             <div>
               <div class="paper-year">2026</div>
@@ -121,7 +150,7 @@
             </div>
           </li>
 
-          <li class="paper-card" data-type="conference preprint">
+          <li class="paper-card" id="uno" data-type="conference preprint">
             <img src="images/publications/uno_2025.png" alt="" class="paper-thumb" loading="lazy" />
             <div>
               <div class="paper-year">2026</div>
@@ -136,7 +165,37 @@
             </div>
           </li>
 
-          <li class="paper-card" data-type="conference preprint">
+          <li class="paper-card" id="obeyed-vla" data-type="preprint">
+            <img src="images/publications/obeyedvla_2026.png" alt="OBEYED-VLA object-centric and geometry-grounded manipulation framework" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2025</div>
+              <h3 class="paper-title">Clutter-Resistant Vision-Language-Action Models through Object-Centric and Geometry Grounding</h3>
+              <p class="paper-authors">Khoa Vo, Taisei Hanyu, Yuki Ikebe, Trong Thang Pham, <strong>Nhat Chung</strong>, Minh Nhat Vu, Duy Nguyen Ho Minh, Anh Nguyen, Anthony Gunderman, Chase Rainwater, Ngan Le</p>
+              <p class="paper-meta"><strong>arXiv Preprint, 2025</strong></p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/2512.22519">arXiv</a>
+                <a href="https://uark-aicv.github.io/OBEYED_VLA/">Project</a>
+                <a href="https://github.com/UARK-AICV/OBEYED_VLA">Code</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="depthvanish" data-type="conference preprint">
+            <img src="images/publications/depthvanish_2025.png" alt="DepthVanish physical adversarial patch framework for stereo depth estimation" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2025</div>
+              <h3 class="paper-title">DepthVanish: Optimizing Adversarial Interval Structures for Stereo-Depth-Invisible Patches</h3>
+              <p class="paper-authors">Yun Xing, Yue Cao, <strong>Nhat Chung</strong>, Jie M. Zhang, Ivor Tsang, Ming-Ming Cheng, Yang Liu, Lei Ma, Qing Guo</p>
+              <p class="paper-meta"><strong>NeurIPS 2025</strong></p>
+              <div class="paper-links">
+                <a href="https://papers.neurips.cc/paper_files/paper/2025/hash/02dd0db10c40092de3d9ec2508d12f60-Abstract-Conference.html">Paper</a>
+                <a href="https://arxiv.org/abs/2506.16690">arXiv</a>
+                <a href="https://github.com/WiWiN42/DepthVanish">Code</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="bima" data-type="conference preprint">
             <img src="images/publications/bima_2024.png" alt="" class="paper-thumb" loading="lazy" />
             <div>
               <div class="paper-year">2025</div>
@@ -147,6 +206,33 @@
                 <a href="https://dl.acm.org/doi/10.1145/3746027.3754833">Paper</a>
                 <a href="https://arxiv.org/abs/2506.03589">arXiv</a>
                 <a href="https://github.com/Fsoft-AIC/BiMa">Code</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="typoattack" data-type="preprint">
+            <img src="images/publications/typoattack_2024.png" alt="Examples of typographic attacks against driving vision-language models" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2024</div>
+              <h3 class="paper-title">Towards Transferable Attacks Against Vision-LLMs in Autonomous Driving with Typography</h3>
+              <p class="paper-authors"><strong>Nhat Chung</strong>, Sensen Gao, Tuan-Anh Vu, Jie Zhang, Aishan Liu, Yun Lin, Jin Song Dong, Qing Guo</p>
+              <p class="paper-meta"><strong>arXiv Preprint, 2024</strong></p>
+              <div class="paper-links">
+                <a href="https://arxiv.org/abs/2405.14169">arXiv</a>
+                <a href="https://arxiv.org/pdf/2405.14169">PDF</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="paper-card" id="bgsubnet" data-type="journal">
+            <img src="images/publications/bgsubnet_2024.jpg" alt="BgSubNet training and inference framework" class="paper-thumb" loading="lazy" />
+            <div>
+              <div class="paper-year">2024</div>
+              <h3 class="paper-title">BgSubNet: Robust Semi-Supervised Background Subtraction in Realistic Scenes</h3>
+              <p class="paper-authors"><strong>Nhat Minh Chung</strong>, Synh Viet-Uyen Ha</p>
+              <p class="paper-meta"><strong>IEEE Sensors Journal, 2024</strong></p>
+              <div class="paper-links">
+                <a href="https://doi.org/10.1109/JSEN.2024.3358181">Paper</a>
               </div>
             </div>
           </li>
