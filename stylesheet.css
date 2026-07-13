@@ -7,6 +7,7 @@
   --accent-soft: #dce9f6;
   --warm: #914100;
   --warm-soft: #fff0d5;
+  --warm-surface: #fff8eb;
   --warm-line: #d99a52;
   --line: #aebfd0;
   --shadow: 0 18px 45px rgba(0, 26, 53, 0.14);
@@ -333,6 +334,20 @@ h2 {
   gap: 10px;
 }
 
+section > .section-title {
+  margin: -30px -30px 18px;
+  padding: 14px 30px;
+  background: linear-gradient(90deg, var(--warm-soft), var(--warm-surface));
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+section > .section-title .section-icon,
+.section-heading-row .section-icon {
+  color: var(--warm);
+  background: var(--warm-surface);
+  border-color: var(--warm-line);
+}
+
 .section-icon,
 .news-entry-icon,
 .award-icon {
@@ -349,8 +364,8 @@ h2 {
 }
 
 .news-entry-icon.milestone {
-  color: #174f82;
-  background: #e1edf8;
+  color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .section-icon {
@@ -575,15 +590,13 @@ li {
 }
 
 .news-entry-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 6px 10px;
+  display: block;
 }
 
 .news-highlight {
   display: inline-flex;
   align-items: center;
+  margin-right: 8px;
   min-height: 25px;
   padding: 2px 9px;
   border: 1px solid var(--warm-line);
@@ -671,6 +684,13 @@ footer {
   padding: 40px;
 }
 
+.page-hero h1 {
+  margin: -40px -40px 24px;
+  padding: 18px 40px;
+  background: linear-gradient(90deg, var(--warm-soft), var(--warm-surface));
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
 .section-links {
   margin-top: 18px;
 }
@@ -747,6 +767,17 @@ footer {
   font-weight: inherit;
 }
 
+.paper-tldr {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.paper-tldr strong {
+  color: var(--text);
+}
+
 .paper-year {
   color: var(--muted);
   font-weight: 800;
@@ -789,11 +820,18 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  margin-bottom: 18px;
+  margin: -30px -30px 18px;
+  padding: 14px 30px;
+  background: linear-gradient(90deg, var(--warm-soft), var(--warm-surface));
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .section-heading-row h2 {
   margin-bottom: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
 }
 
 .filter-control {
@@ -828,6 +866,15 @@ footer {
 }
 
 @media (max-width: 800px) {
+  section > .section-title,
+  .section-heading-row {
+    margin-top: -24px;
+    margin-right: -24px;
+    margin-left: -24px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
   .section-heading-row {
     align-items: flex-start;
     flex-direction: column;
