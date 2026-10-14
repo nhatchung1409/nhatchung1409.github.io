@@ -7,20 +7,23 @@
   <title>Nhat Chung</title>
   <meta
     name="description"
-    content="Nhat Chung is a PhD student at A*STAR and NUS working on safety-enabled decision-making for open-world embodied systems."
+    content="Nhat Chung is a PhD student at NUS and a graduate researcher at A*STAR, studying robot learning and safety."
   />
   <meta name="author" content="Nhat Chung" />
   <meta property="og:title" content="Nhat Chung" />
   <meta
     property="og:description"
-    content="PhD student at A*STAR and NUS working on robot safety, embodied AI, and trustworthy computer vision."
+    content="Nhat Chung researches robot learning, visual perception, and how to make embodied systems more reliable."
   />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="images/profile_photo.png" />
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="shortcut icon" href="favicon.ico" sizes="any">
 
-  <link rel="stylesheet" href="stylesheet.css?v=20260713-9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="stylesheet.css?v=20261014-28" />
 </head>
 
 <body>
@@ -79,62 +82,68 @@
 
   <div class="page">
     <header>
-      <div class="brand">Home</div>
       <nav aria-label="Main navigation">
         <a href="#about">About</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="#news">News</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="#experience">Experience</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="publication.html">Publications</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="#service">Service</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="#teaching">Teaching</a>
+        <span class="nav-separator" aria-hidden="true">·</span>
         <a href="#awards">Awards</a>
       </nav>
     </header>
 
     <main>
       <div class="hero">
-        <div class="hero-card">
-          <div class="eyebrow">PhD Student · A*STAR / NUS · Robot Safety</div>
+        <div class="eyebrow">
+          <a class="brand" href="index.html" aria-label="Home"><img src="images/icons/sun.jpg" alt="" width="32" height="32" /></a>
+          <span>PhD Student · A*STAR/NUS · Robot Safety</span>
+        </div>
 
+        <div class="hero-card">
           <h1>Nhat Chung</h1>
 
           <p class="subtitle">
-            Nhat is currently a first-year PhD student at&thinsp; 
+            I'm a PhD student at&thinsp;
             <a class="inline-logo-link" href="https://www.comp.nus.edu.sg/">
               <img src="images/nus-logo.svg" alt="" loading="lazy" />
               <span>National University of Singapore</span>
             </a>
-            and is a Graduate Researcher at&thinsp;
+            and a graduate researcher at&thinsp;
             <a class="inline-logo-link" href="https://www.a-star.edu.sg/cfar">
               <img src="images/astar-logo.svg" alt="" loading="lazy" />
               <span>A*STAR Singapore</span>
-            </a>, where he is advised by
+            </a>. I work with
             <a href="https://scholar.google.com/citations?user=rJMOlVsAAAAJ&amp;hl=en">Prof. Ivor Tsang</a>,
             <a href="https://scholar.google.com/citations?user=tuLa1AsAAAAJ&amp;hl=en">Prof. Jin-Song Dong</a>,
             and <a href="https://scholar.google.com/citations?user=Rj2x4QUAAAAJ&amp;hl=zh-CN">Prof. Qing Guo</a>
-            in making <strong>robots safer</strong> whenever they
-            share space with humans, particularly through
+            in making <strong>robots safer</strong> whenever they share space with humans, particularly through
             <strong>learning semantic-action representations</strong> and <strong>stress-testing</strong>.
           </p>
 
-          <div class="links">
+          <!-- <div>Based in Singapore</div>
+          <div>Outside research, I enjoy traveling.</div> -->
+        </div>
+
+        <aside class="profile-box">
+          <img class="avatar" src="images/profile_photo.png" alt="Portrait of Nhat Chung" width="742" height="727" />
+        </aside>
+
+        <div class="links hero-links">
+          <span class="hero-email"><strong>Email</strong> · nhatcm [at] u.nus.edu</span>
+          <div class="hero-action-links">
             <a class="button primary" href="publication.html">Publications</a>
             <a class="button" href="https://scholar.google.com/citations?user=LZb_-BwAAAAJ">Google Scholar</a>
             <a class="button" href="https://www.linkedin.com/in/nhat-chung-579408178/">LinkedIn</a>
             <a class="button" href="https://github.com/nhatchung14">GitHub</a>
           </div>
         </div>
-
-        <aside class="profile-box">
-          <div class="avatar" aria-label="Portrait of Nhat Chung"></div>
-
-          <div class="profile-meta">
-            <div><strong>Contact:</strong></div>
-            <div>nhatcm [at] u.nus.edu</div>
-            <div><strong>Location:</strong> Singapore</div>
-            <div><strong>Hobbies:</strong> Traveling!</div>
-          </div>
-        </aside>
       </div>
 
       <section id="news">
@@ -157,7 +166,7 @@
                     </span>
                     <div class="news-entry-content">
                       <span class="news-highlight">Paper accepted</span>
-                      <span><a href="publication.html#liberomem"><strong>LIBERO-Mem</strong></a>, our work on stress-testing robots to remember object-level interaction histories for manipulation, was accepted to <strong>AAAI 2026</strong>.</span>
+                      <span><a href="publication.html#liberomem"><strong>LIBERO-Mem</strong></a> @ <strong>AAAI 2026</strong> studies whether a robot can remember earlier object interactions across a long manipulation task. It introduces an object-centric benchmark and a slot-based model for tracking that history.</span>
                     </div>
                   </div>
                 </td>
@@ -172,7 +181,22 @@
                     </span>
                     <div class="news-entry-content">
                       <span class="news-highlight">Paper accepted</span>
-                      <span><a href="publication.html#slotvla"><strong>SlotVLA</strong></a>, which gives robots compact object-relation representations for manipulation, was accepted to <strong>ICRA 2026</strong>. <a href="publication.html#uno"><strong>UNO</strong></a>, which unifies box- and pixel-level video scene graph generation in one object-centric model, was accepted to <strong>WACV 2026</strong>.</span>
+                      <span><a href="publication.html#slotvla"><strong>SlotVLA</strong></a> @ <strong>ICRA 2026</strong> studies how compact object and relation representations support robot manipulation. It introduces the object-annotated LIBERO+ benchmark and a slot-based model that uses fewer visual tokens while maintaining competitive generalization.</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Jan 2026</th>
+                <td>
+                  <div class="news-entry">
+                    <span class="news-entry-icon acceptance">
+                      <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
+                    </span>
+                    <div class="news-entry-content">
+                      <span class="news-highlight">Paper accepted</span>
+                      <span><a href="publication.html#uno"><strong>UNO</strong></a> @ <strong>WACV 2026</strong> unifies box- and pixel-level video scene graph generation in one model. Its object and relation slots capture interactions across frames without a separate tracker.</span>
                     </div>
                   </div>
                 </td>
@@ -186,7 +210,7 @@
                       <svg aria-hidden="true"><use href="#icon-graduation"></use></svg>
                     </span>
                     <div class="news-entry-content">
-                      <span>Started as a <strong>PhD student at <a href="https://www.comp.nus.edu.sg/">NUS's School of Computing</a></strong> and <strong>Graduate Researcher at <a href="https://www.a-star.edu.sg/cfar">A*STAR's IAIC, CFAR</a></strong>.</span>
+                      <span>Started my PhD at <a href="https://www.comp.nus.edu.sg/">NUS School of Computing</a> and joined <a href="https://www.a-star.edu.sg/cfar">A*STAR's CFAR</a> as a graduate researcher.</span>
                     </div>
                   </div>
                 </td>
@@ -201,7 +225,7 @@
                     </span>
                     <div class="news-entry-content">
                       <span class="news-highlight">Paper accepted</span>
-                      <span><a href="publication.html#bima"><strong>BiMa</strong></a>, our work on reducing visual and linguistic biases in text-video retrieval, was accepted to <strong>ACM Multimedia 2025</strong>.</span>
+                      <span><a href="publication.html#bima"><strong>BiMa</strong></a> @ <strong>ACM Multimedia 2025</strong> tackles bias in text-video retrieval. It uses scene elements and disentangled text features to focus on relevant content, improving retrieval on out-of-distribution videos.</span>
                     </div>
                   </div>
                 </td>
@@ -219,62 +243,54 @@
           About
         </h2>
         <p>
-          He earned a B.Eng. and
-          a M.Eng. from <a href="https://vnuhcm.edu.vn/en/">International University,
-          Vietnam National University HCMC</a>, graduating top of his class. During his studies, he was mentored by
-          <a href="https://scholar.google.com/citations?user=EgDjnEEAAAAJ&amp;hl=en">Dr. Tuan-Anh Vu</a> in competitive programming and computer vision research.
-        
-          He later worked as an AI Engineer at <a href="https://fptsoftware.com/en">FPT Software</a>, where
-          he was mentored by <a href="https://scholar.google.com/citations?user=8ck0k_UAAAAJ&amp;hl=en">Prof. Ngan Le</a>,
-          <a href="https://scholar.google.com/citations?user=9luXdEIAAAAJ&amp;hl=en">Prof. Tung Kieu</a>,
-          and <a href="https://scholar.google.com/citations?user=gEbaF0sAAAAJ&amp;hl=en">Prof. Anh Nguyen</a> in robotics and multimodal systems.
+          I earned my B.Eng. and M.Eng. at <a href="https://vnuhcm.edu.vn/en/">International University,
+          Vietnam National University HCMC</a>, where I graduated top of my class. I worked with
+          <a href="https://scholar.google.com/citations?user=EgDjnEEAAAAJ&amp;hl=en">Dr. Tuan-Anh Vu</a> on competitive programming and computer vision.
         </p>
 
         <p>
-          Nhat's technical background spans <strong>embodied AI</strong>, <strong>trustworthy systems</strong>, and <strong>visual perception</strong>.
+          Before starting my PhD, I was an AI Resident at <a href="https://fptsoftware.com/en">FPT Software</a>. There, I worked with <a href="https://scholar.google.com/citations?user=8ck0k_UAAAAJ&amp;hl=en">Prof. Ngan Le</a>,
+          <a href="https://scholar.google.com/citations?user=9luXdEIAAAAJ&amp;hl=en">Prof. Tung Kieu</a>,
+          and <a href="https://scholar.google.com/citations?user=gEbaF0sAAAAJ&amp;hl=en">Prof. Anh Nguyen</a> on robotics and multimodal systems.
+        </p>
+
+        <p>
+          My work has followed three related questions:
         </p>
 
         <div class="research-themes" aria-label="Research themes">
           <article class="research-theme">
-            <h3>Embodied AI</h3>
+            <h3>Grounded control</h3>
             <p>
-              Nhat develops semantic representations that help robots connect perception, memory, and action.
-              <a href="publication.html#slotvla">SlotVLA</a>
-              models objects and their relations for manipulation, while
-              <a href="publication.html#liberomem">LIBERO-Mem</a>
-              maintains object-centric task states over long horizons, giving embodied agents structured knowledge for deciding what to do next.
+              I study how robots may learn and use information about objects, their relationships, and their history to guide manipulation.
+              <a href="publication.html#slotvla">SlotVLA</a> focuses on object relations;
+              <a href="publication.html#liberomem">LIBERO-Mem</a> looks at what a robot needs to remember across a task.
             </p>
           </article>
 
           <article class="research-theme">
-            <h3>Trustworthy Systems</h3>
+            <h3>Stress testing</h3>
             <p>
-              Nhat studies whether semantic representations remain dependable against ambiguities and adversaries.
-              <a href="publication.html#obeyed-vla">OBEYED-VLA</a>
-              grounds actions in task-relevant objects and geometry, while
+              I test how vision and robot models behave when scenes are cluttered, ambiguous, or deliberately altered.
+              <a href="publication.html#obeyed-vla">OBEYED-VLA</a> studies object and geometry grounding;
               <a href="publication.html#depthvanish">DepthVanish</a>,
-              <a href="publication.html#magic">MAGIC</a>, and
-              <a href="publication.html#typoattack">typographic attacks</a>
-              expose how physical and linguistic perturbations can distort understanding and downstream decisions.
+              <a href="publication.html#magic">MAGIC</a>, and work on
+              <a href="publication.html#typoattack">typographic attacks</a> probe failures in perception and reasoning.
             </p>
           </article>
 
           <article class="research-theme">
-            <h3>Visual Perception</h3>
+            <h3>Robust perception</h3>
             <p>
-              Nhat's visual perception research turns complex scenes into semantic concepts that embodied agents can reason about.
-              <a href="publication.html#camoudet">Open-vocabulary camouflage segmentation</a>
-              identifies concealed instances,
-              <a href="publication.html#bgsubnet">BgSubNet</a>
-              separates foreground dynamics, and
-              <a href="publication.html#uno">UNO</a>
-              represents interactions as scene relations when objects, motion, and context are difficult to interpret.
+              My earlier work covers <a href="publication.html#camoudet">camouflaged object segmentation</a>,
+              <a href="publication.html#bgsubnet">robust background subtraction</a>, and
+              <a href="publication.html#uno">video scene graphs</a>. These projects shaped my interest in the visual information robots rely on.
             </p>
           </article>
         </div>
 
         <p class="research-convergence">
-          Nhat's research now asks how semantic representations can support decisions that remain meaningful, grounded, and robust in the open world. The long-term goal is to build <strong>contextually safe robots</strong> that understand what matters in a scene, recognize when their understanding may be unreliable, and act accordingly around people.
+          I'm now bringing those threads together to study when a robot should trust what it sees and remembers before it acts around people.
         </p>
       </section>
 
@@ -304,7 +320,7 @@
               <img src="images/fptsoftware-logo.png" alt="FPT Software" loading="lazy" />
             </a>
             <div>
-              <div class="item-title">AI Engineer</div>
+              <div class="item-title">AI Resident</div>
               <div class="item-place"><a href="https://fptsoftware.com/en">FPT Software</a>, Ho Chi Minh City</div>
             </div>
           </div>
@@ -327,7 +343,7 @@
             </a>
             <div>
               <div class="item-title">Research, Teaching, and Administrative Assistant</div>
-              <div class="item-place">Computer Vision and Image Processing Lab, Vietnam National University, Ho Chi Minh City</div>
+              <div class="item-place">Computer Vision and Image Processing Lab, Vietnam National University, Ho Chi Minh City, Vietnam</div>
             </div>
           </div>
         </div>
@@ -344,7 +360,7 @@
         <ul class="service-list">
           <li>
             <strong>Conference reviewer:</strong>
-            CoRL 2026, NeurIPS 2026, WACV 2026 (Outstanding Reviewer),
+            CoRL 2026, NeurIPS 2026, WACV 2026,
             CVPR 2026, ECCV 2025, ICCV 2025.
           </li>
 
@@ -352,7 +368,8 @@
             <strong>Journal reviewer:</strong>
             IEEE Transactions on Artificial Intelligence,
             IEEE Transactions on Image Processing,
-            IEEE Robotics and Automation Letters.
+            IEEE Robotics and Automation Letters,
+            International Journal of Social Robotics.
           </li>
         </ul>
       </section>
@@ -368,16 +385,26 @@
         <ul class="teaching-list">
           <li>
             <strong>Introduction to AI and Machine Learning</strong>,
-            Teaching Assistant to
+            Head TA to
+            <a href="https://scholar.google.com/citations?user=1D4xX8MAAAAJ&amp;hl=en">Prof. Conghui Hu</a>
+            and <a href="https://www.comp.nus.edu.sg/cs/people/maulana/">Prof. Rizki Maulana</a> @
+            <a href="https://www.comp.nus.edu.sg/">National University of Singapore</a>,
+            Semester 1, 2026-2027.
+          </li>
+
+          <li>
+            <strong>Introduction to AI and Machine Learning</strong>,
+            TA to
             <a href="https://scholar.google.com/citations?user=1D4xX8MAAAAJ&amp;hl=en">Prof. Conghui Hu</a>,
             <a href="https://scholar.google.com/citations?user=XWHSBmUAAAAJ&amp;hl=en">Prof. Patrick Rebentrost</a>,
             and <a href="https://www.comp.nus.edu.sg/cs/people/maulana/">Prof. Rizki Maulana</a> @
-            <a href="https://www.comp.nus.edu.sg/">National University of Singapore</a>, 2026.
+            <a href="https://www.comp.nus.edu.sg/">National University of Singapore</a>,
+            Semester 2, 2025-2026.
           </li>
 
           <li>
             <strong>Introduction to Machine Learning</strong>,
-            Teaching Assistant to
+            TA to
             <a href="https://scholar.google.com/citations?user=4UyniXYAAAAJ&amp;hl=en">Prof. Vincent Ng</a> @
             <a href="https://fulbright.edu.vn/">Fulbright University Vietnam</a>, 2023.
           </li>
@@ -393,19 +420,20 @@
         </h2>
 
         <ul class="award-list">
+          <li><strong>Outstanding Reviewer</strong>, <strong>WACV 2026</strong>.</li>
           <li><strong>Second Place</strong>, Robustness of Foundation Models Workshop, <strong>CVPR 2024</strong>.</li>
           <li><strong>First Place</strong>, 7th AI City Challenge Workshop, Track 2, <strong>CVPR 2023</strong>.</li>
           <li><strong>Second Place</strong>, 7th AI City Challenge Workshop, Track 1, <strong>CVPR 2023</strong>.</li>
           <li><strong>Second Place</strong>, 5th AI City Challenge Workshop, Track 1, <strong>CVPR 2021</strong>.</li>
           <li><strong>Gold Medal</strong>, International Collegiate Programming Contest, <strong>Asia Can Tho Regional Contest 2020</strong>.</li>
-          <li><strong>Second Prize</strong>, Vietnam National Olympiad of Informatics, <strong>Div-2 Individual 2018</strong>.</li>
+          <li><strong>Second Prize</strong>, Vietnam National Olympiad of Informatics, <strong>Individual Contest 2018</strong>.</li>
         </ul>
       </section>
 
     </main>
 
     <footer>
-      © 2026 Nhat Chung. Built with plain HTML and CSS.
+      © 2026 Nhat Chung
     </footer>
   </div>
 </body>
